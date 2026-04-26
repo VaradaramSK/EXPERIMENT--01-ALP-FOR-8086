@@ -97,42 +97,49 @@ HTL
  
 ## Subtraction   of 8 bit numbers  ALP 
 ```
-MOV al, 74
-MOV bl, 69
-SUB al, bl
+MOV ax, 1234h
+MOV bx, 7428h
+SUB ax, bx
 HTL
 ```
 
  
 ## Output  
-![Screenshot 2025-02-28 083935](https://github.com/user-attachments/assets/5a6a22cf-a0bb-4221-9d4a-43ed5e117423)
+
+<img width="1326" height="857" alt="sub screenshot" src="https://github.com/user-attachments/assets/f940d18f-1dca-4849-a965-de5e5879d72a" />
+
 
 ## Multiplication alp 
 ```
-org 200h
-MOV al, 75
-MOV bl, 32
-MUL al, bl
+
+MOV ax,1234h 
+MOV bx,7428h
+MUL bx
 HTL
-ret
+
 ```
 
  ## Output  
 
-![Screenshot 2025-02-28 084653](https://github.com/user-attachments/assets/fccbbae4-3094-4f0f-85c5-ba717b051911)
+
+
+<img width="1377" height="850" alt="experiment 3" src="https://github.com/user-attachments/assets/c4651790-c42a-4ffd-a4a3-d383a3e2ded5" />
+
+
 
 ## Division alp 
 ```
-MOV al, 68
-MOV bl, 18
-DIV al, bl
+MOV ax, 1234h
+MOV bx, 4567h
+DIV bx
 HTL
-ret
 ```
 
 ## Output 
 
-![Screenshot 2025-02-28 084956](https://github.com/user-attachments/assets/26037c4b-cf1a-48e0-9509-37a2826119f3)
+
+<img width="1408" height="907" alt="division screenshot" src="https://github.com/user-attachments/assets/aee9b1e2-08fd-427a-a4d6-b76711e5fe51" />
+
 
 ## And of 8 bit numbers ALP
 ```
